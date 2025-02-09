@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Stepiklimov Chairs</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Stepiklimov Chairs</h1>
+            <nav>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#shop">Shop</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="home">
+        <div class="container">
+            <h2>Welcome to Stepiklimov Chairs!</h2>
+            <p>We offer a variety of stylish and comfortable chairs for your home and office.</p>
+        </div>
+    </section>
+
+    <section id="about">
+        <div class="container">
+            <h2>About Us</h2>
+            <p>At Stepiklimov Chairs, we are passionate about providing high-quality chairs that meet the needs of every customer. Whether you're looking for comfort or style, we have the perfect chair for you.</p>
+        </div>
+    </section>
+
+    <section id="shop">
+        <div class="container">
+            <h2>Shop Our Collection</h2>
+            <div class="product">
+                <img src="chair1.jpg" alt="Chair 1">
+                <h3>Modern Office Chair</h3>
+                <p>$199.99</p>
+                <button>Add to Cart</button>
+            </div>
+            <div class="product">
+                <img src="chair2.jpg" alt="Chair 2">
+                <h3>Ergonomic Desk Chair</h3>
+                <p>$149.99</p>
+                <button>Add to Cart</button>
+            </div>
+            <div class="product">
+                <img src="chair3.jpg" alt="Chair 3">
+                <h3>Recliner Chair</h3>
+                <p>$249.99</p>
+                <button>Add to Cart</button>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <div class="container">
+            <h2>Contact Us</h2>
+            <p>If you have any questions, feel free to contact us!</p>
+            <form>
+                <input type="text" placeholder="Your Name" required>
+                <input type="email" placeholder="Your Email" required>
+                <textarea placeholder="Your Message" required></textarea>
+                <button type="submit">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 Stepiklimov Chairs</p>
+        </div>
+    </footer>
+</body>
+</html>
